@@ -12,6 +12,8 @@ public class Main{
 		Subscriber2 sub2 = new Subscriber2();
 		cur_data.registerObserver(sub2);
 		cur_data.changed_score(103300,1022200);
+
+		System.out.println("sucess");
 		
 
 		
